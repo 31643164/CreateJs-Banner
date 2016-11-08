@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: myFont;
+    src: url(SkyText-Regular.ttf);
+}
+* { margin: 0; padding: 0; font-size: 100% }
+
+
+#bwrapper { z-index: 0; position: relative; width: 300px; height: 250px; margin: 100px auto 0 auto }
+#bwrapper #testCanvas {
+	z-index: 0;
+	position: relative;
+}
+#bwrapper #skyLogo {
+	z-index: 999;
+	position: absolute;
+	width: 50px;
+	height: 32px;
+}
+#bwrapper #background {
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 250px;
+	background: url(../images/background.png) no-repeat left top
+}
+/* ============== Frame 1 ===================== */
+#banner {
+	z-index: 9;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 250px
+}
+
+#banner #reward { 
+    z-index: 9;
+	position: absolute;
+	width: 189px;
+	height: 22px;
+    background: url(../images/reward.png) no-repeat left top
+
+}
+#banner #free { 
+    z-index: 9;
+	position: absolute;
+	top: 50px;
+	width: 300px;
+	height: 40px
+}
+
+#banner #samsung {
+	z-index: 9;
+	position: absolute;
+	width: 81px;
+	height: 81px
+}
+#banner #voucher {
+	z-index: 9;
+	position: absolute;
+	width: 81px;
+	height: 81px
+}
+/* ============== Frame 2 ===================== */
+#banner #joinSky {
+	z-index: 999 !important;
+	position: absolute;
+	width: 214px;
+	height: 22px;
+	background: url(../images/frame2/joinSky.png) no-repeat left top
+}
+#banner #bbSale {
+	z-index: 1;
+	position: absolute;
+	width: 167px;
+	height: 140px;
+	background: url(../images/frame2/bbSale.png) no-repeat left top
+}
+/* ============== Frame 3 ===================== */
+#banner #callAction {
+	z-index: 99 !important;
+	position: absolute;
+	overflow: hidden;
+	width: 146px;
+	height: 44px;
+	background: url(../images/frame3/callAction.png) no-repeat left top
+}
+#banner #sheen {
+	z-index: 999 !important;
+	position: absolute;
+	width: 30px;
+	height: 40px;
+	background: url(../images/frame3/sheene.png) no-repeat left top
+}
+#banner #deezer {
+	z-index: 9 !important;
+	position: absolute;
+	width: 277px;
+	height: 42px;
+	background: url(../images/frame3/deezer.png) no-repeat left top
+}
+#banner #offer {
+	z-index: 9;
+	position: absolute;
+	width: 151px;
+	height: 17px;
+	background: url(../images/frame3/offer.png) no-repeat left top
+}
